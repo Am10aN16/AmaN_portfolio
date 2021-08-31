@@ -124,7 +124,7 @@ header.sticky{
 }
 
 header .brand{
-    color: #BD081C;
+    color: #fff;
     font-size: 1.8em;
     font-weight: 700;
     /* text-transform: uppercase; */
@@ -136,7 +136,7 @@ header .navigation{
 }
 
 header .navigation a{
-    color: #BD081C;
+    color: #fff;
     font-size: 1em;
     font-weight: 600;
     text-decoration: none;
@@ -607,7 +607,7 @@ resize: none;
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #BD081C;
+        background: #fff;
         transition: all 0.5s ease-out;
     }
 
@@ -745,7 +745,7 @@ resize: none;
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #BD081C;
+        background: #fff;
         transition: all 0.5s ease-out;
     }
 

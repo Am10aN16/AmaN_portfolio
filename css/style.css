@@ -18,7 +18,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/aman.JPG)no-repeat;
+    background: url(../images/background.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ section{
 }
 
 .main .content h2{
-    color: red;
+    color: #BD081C;
     font-size: 2rem;
     font-weight: 500;
 }
@@ -46,7 +46,7 @@ section{
 }
 
 .animated-text h3{
-    color: #4e9eff;
+    color: #FFFC00;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -119,12 +119,12 @@ header{
 }
 
 header.sticky{
-    background: #3a6cf4;
+    background: #0A66C2;
     padding: 10px 200px;
 }
 
 header .brand{
-    color: red;
+    color: #BD081C;
     font-size: 1.8em;
     font-weight: 700;
     /* text-transform: uppercase; */
@@ -136,7 +136,7 @@ header .navigation{
 }
 
 header .navigation a{
-    color: red;
+    color: #BD081C;
     font-size: 1em;
     font-weight: 500;
     text-decoration: none;
@@ -226,6 +226,7 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+    /* max-height: 400px; */
 }
 
 .about .content .col-right .content-title{
@@ -650,6 +651,62 @@ resize: none;
 
     .contact-form{
         padding: 35px 40px;
+    }
+}
+
+@media(max-width: 640px){
+    /* header {
+        /* right: 103px; */
+        /* z-index: 999;
+        position: fixed;
+        background: black;
+        top: 0;
+        left: 0px;
+        width: 95%;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        transition: 0.5s ease;
+    } 
+     .main .content h2 {
+        display: flex;
+        color: red;
+        font-size: 1em;
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+         padding-right: 40px; 
+         margin-left: -75px 
+     }*/
+    .main .content h2 span{
+        font-size: 1.3em;
+        
+    }
+    .animated-text {
+        position: relative;
+        height: 70px;
+        overflow: hidden;
+         /* margin-left: -77px;  */
+    }
+    .animated-text h3 {
+        color: #FFFC00;
+        font-size: 1.6em;
+        font-weight: 800;
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+    /* .media-icons {
+        margin-left: -57px;
+        margin-top: 30px;
+    }  */
+    .section-title {
+        font-size: 2.2em;
+    }
+
+    section{
+        padding: 20px 40px;
     }
 }
 

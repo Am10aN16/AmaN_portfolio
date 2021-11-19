@@ -98,7 +98,22 @@ section{
     margin-top: 50px;
 }
 
+.media-icons #fb{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #1877F2;
+}
 .media-icons a{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #E4405F;
+}
+.media-icons #link{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #0A66C2;
+}
+.media-icons #git{
     font-size: 35px;
     margin-right: 20px;
     color: #BD081C;
@@ -308,6 +323,11 @@ body{
 .skills .content .col-right .bar .javascript:before{
     width:60%;
     background: #e3a324;
+}
+
+.skills .content .col-right .bar .react:before{
+    width:40%;
+    background: purple;
 }
 
 .skills .content .col-right .bar .node:before{

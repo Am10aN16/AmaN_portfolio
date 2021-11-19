@@ -327,7 +327,7 @@ body{
 
 .skills .content .col-right .bar .react:before{
     width:40%;
-    background: purple;
+    background: #0a17ce;
 }
 
 .skills .content .col-right .bar .node:before{
